@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace MorseCode
 {
-    class MorseCode
+    public static class MorseCode
     {
         public static Exception EmptyStringException = new Exception("String is empty!");
         public static Exception UnrecognizedSymbolException = new Exception("Unrecognized symbol was found!");
